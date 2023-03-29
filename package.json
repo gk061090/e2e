@@ -2,7 +2,7 @@
   "name": "e2e",
   "version": "0.0.1",
   "scripts": {
-    "test": "npm run playwright"
+    "test:e2e": "npx playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.32.1"
