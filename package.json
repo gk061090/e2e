@@ -1,20 +1,9 @@
 {
   "name": "e2e",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gk061090/e2e.git"
+  "version": "0.0.1",
+  "scripts": {
+    "test:e2e": "npx playwright test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gk061090/e2e/issues"
-  },
-  "homepage": "https://github.com/gk061090/e2e#readme",
   "devDependencies": {
     "@playwright/test": "^1.32.1"
   }
